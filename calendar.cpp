@@ -27,15 +27,7 @@ int Calendar::numberOfDays(int monthNumber, int year) {
         31, (isLeapYear(year) ? 29 : 28) , 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
     };
     return lastDay[monthNumber - 1];
-    // while(m < 7) { //no need to use while
-    //     if() {
-    //         return  //exit out this function
-    //     } else if {
-    //         return //exit
-    //     }
-    //     //No way to break the condition -> infinite loop
-    //     //return <- no need to use while-loop at all
-    // }
+
 }
 
 std::string Calendar::correctionOf(int inputNumber) {
